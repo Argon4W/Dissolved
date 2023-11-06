@@ -1,0 +1,74 @@
+<component name="libraryTable">
+  <library name="spigot-1.20.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/run/bundler/versions/spigot-1.20.2-R0.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/asm-9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/authlib-5.0.47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/brigadier-1.1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/bungeecord-chat-1.20-R0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/checker-qual-3.33.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/commons-codec-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/commons-io-2.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/commons-lang3-3.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/datafixerupper-6.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/error_prone_annotations-2.18.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/failureaccess-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/fastutil-8.5.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/gson-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/guava-32.1.2-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/httpclient-4.5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/httpcore-4.4.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/j2objc-annotations-2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/jcl-over-slf4j-1.7.32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/jline-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/jna-5.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/jna-platform-5.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/joml-1.10.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/jopt-simple-5.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/jsr305-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/log4j-api-2.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/log4j-core-2.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/log4j-iostreams-2.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/log4j-slf4j2-impl-2.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-artifact-3.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-builder-support-3.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-model-3.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-model-builder-3.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-repository-metadata-3.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-resolver-api-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-resolver-connector-basic-1.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-resolver-impl-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-resolver-provider-3.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-resolver-spi-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-resolver-transport-http-1.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/maven-resolver-util-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/mysql-connector-j-8.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-buffer-4.1.97.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-codec-4.1.97.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-common-4.1.97.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-handler-4.1.97.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-resolver-4.1.97.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-transport-4.1.97.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-transport-classes-epoll-4.1.97.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/netty-transport-native-unix-common-4.1.97.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/org.eclipse.sisu.inject-0.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/oshi-core-6.4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/plexus-interpolation-1.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/plexus-utils-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/protobuf-java-3.21.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/slf4j-api-2.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/snakeyaml-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/spigot-api-1.20.2-R0.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/sqlite-jdbc-3.42.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/run/bundler/libraries/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

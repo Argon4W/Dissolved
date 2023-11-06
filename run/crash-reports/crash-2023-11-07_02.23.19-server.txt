@@ -1,0 +1,85 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 2023-11-07 02:23:19
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.getName(CraftServer.java:556)
+	at org.bukkit.Bukkit.getName(Bukkit.java:104)
+	at org.bukkit.Bukkit.setServer(Bukkit.java:94)
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.<init>(CraftServer.java:326)
+	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:162)
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:17)
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:183)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:954)
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:298)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+	at com.github.argon4w.dissolved.agent.DissolvedBootstrapClassLoader.lambda$loadOrUpperAccess$2(DissolvedBootstrapClassLoader.java:47)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.github.argon4w.dissolved.agent.DissolvedBootstrapClassLoader.loadOrUpperAccess(DissolvedBootstrapClassLoader.java:47)
+	at com.github.argon4w.dissolved.agent.DissolvedBootstrapClassLoader.loadClass(DissolvedBootstrapClassLoader.java:37)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 10 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.2
+	Minecraft Version ID: 1.20.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.6, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Microsoft
+	Memory: 2416134720 bytes (2304 MiB) / 4806672384 bytes (4584 MiB) up to 17112760320 bytes (16320 MiB)
+	CPUs: 32
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i9-13900HX
+	Identifier: Intel64 Family 6 Model 183 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.42
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 32
+	Graphics card #0 name: NVIDIA GeForce RTX 4090 Laptop GPU
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x2757
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.4584
+	Memory slot #0 capacity (MB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 74992.35
+	Virtual memory used (MB): 38938.79
+	Swap memory total (MB): 9728.00
+	Swap memory used (MB): 49.96
+	JVM Flags: 0 total; 
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NoClassDefFoundError: org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.getName(CraftServer.java:556)
+	at org.bukkit.Bukkit.getName(Bukkit.java:104)
+	at org.bukkit.craftbukkit.v1_20_R2.CraftCrashReport.get(CraftCrashReport.java:23)
+	at org.bukkit.craftbukkit.v1_20_R2.CraftCrashReport.get(CraftCrashReport.java:1)
+	at net.minecraft.SystemReport.a(SourceFile:66)
+	at net.minecraft.CrashReport.<init>(CrashReport.java:37)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1070)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1014)
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:298)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable
+	... 10 more
+
+	Server Running: true
+	Data Packs: vanilla, file/bukkit
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'Spigot'
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dissolved-java-agent">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/run/dissolved-java-agent.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

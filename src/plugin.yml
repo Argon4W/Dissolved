@@ -1,0 +1,6 @@
+name: Dissolved
+main: com.github.argon4w.dissolved.bootstrap.DissolvedBukkitPlugin
+version: 1.0.0-SNAPSHOT
+author: AR
+api-version: 1.13
+load: STARTUP

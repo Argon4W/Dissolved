@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DissolvedTest">
+    <output-path>$PROJECT_DIR$/run/plugins/</output-path>
+    <root id="archive" name="DissolvedTest.jar">
+      <element id="module-output" name="DissolvedTestPlugin" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mixin-0.8.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/run/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

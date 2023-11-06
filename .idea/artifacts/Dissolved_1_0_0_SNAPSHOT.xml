@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Dissolved-1.0.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/run/plugins/</output-path>
+    <root id="archive" name="Dissolved-1.0.0-SNAPSHOT.jar">
+      <element id="module-output" name="Dissolved" />
+      <element id="directory" name="META-INF">
+        <element id="dir-copy" path="$PROJECT_DIR$/META-INF" />
+      </element>
+    </root>
+  </artifact>
+</component>

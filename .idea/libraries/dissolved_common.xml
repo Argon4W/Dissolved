@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dissolved-common">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/run/dissolved-common.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
